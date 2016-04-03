@@ -17,7 +17,7 @@ Topology.onTopologyChange(function(topology) {
 
             topologyTable += "<td>";
             for (var i = 0; i < topology[property].length; ++i) {
-                topologyTable += topology[property][i].endpoint + " ";
+                topologyTable += topology[property][i].endpoint + "<br/>";
             }
             topologyTable += "</td>";
 
